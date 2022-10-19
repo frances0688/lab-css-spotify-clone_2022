@@ -6,3 +6,133 @@ Green: #00B172
 White: #FFF
 
 */
+html,
+body {
+    font: 200 24px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #1A1A1A;
+	margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 13vh;
+    width: 100%;
+    background-color: #FFF;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2em;
+    padding: 0 3vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    height: 70%;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+	padding-right: 7vh;
+}
+
+li > a {
+	text-decoration: none;
+	color: #1A1A1A;
+}
+
+header {
+    background-image: url("../images/landing.jpg");
+    height: 110vh;
+    width: 100%;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+    padding-top: 18%;
+}
+
+h1,
+header > p {
+	color: #FFF;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 18px;
+	font-size: 4.2em;
+	font-weight: 500;
+}
+
+header > p {
+	font-size: 1.6em;
+	line-height: 1.3em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whats-on-h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+	border-bottom: .1em solid #00b172;
+}
+
+.whats-on {
+    display: flex;
+    margin: 3em 2.5em;
+    align-items: baseline;
+}
+
+.whats-on > div {
+    text-align: center;
+}
+
+.whats-on img {
+    width: 35%;
+}
+
+.whats-on h3 {
+	font-size: 1.5em;
+	color: #00b172;
+	margin: .75em 0;
+}
+
+.whats-on p {
+    font-size: 1.3em;
+}
+
+.green {
+    display: flex;
+    background-color: #00b172;
+    justify-content: space-between;
+    align-items: end;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 11%;
+    color: #FFF;
+    margin: 0 3% 2%;
+    padding: 3% 7%;
+    font-size: 1.25em;
+}
+
+.text h2 {
+    font-size: 1.5em;
+	border-bottom: .1em solid #FFF;
+    margin-bottom: 10%;
+}
+
+.image {
+    height: 80vh;
+}
